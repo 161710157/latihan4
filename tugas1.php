@@ -1,12 +1,12 @@
 <?php
 
-class robot{
-public $suara ="ngik ngik ngik";
+class kucing{
+public $suara ="meong meong meong";
 public $berat =30;
 
 }
-$robot = new robot;
-echo "berat robot :".$robot->berat;
-echo "bunyi robot :".$robot->suara;
+$kucing = new kucing;
+echo "berat kucing :".$kucing->berat. "<br>";
+echo "bunyi kucing :".$kucing->suara."<br>";
 
 ?>
